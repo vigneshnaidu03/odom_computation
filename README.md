@@ -24,16 +24,24 @@ This ROS 2 Python package simulates a differential drive robot and computes its 
 ## 🗂 Directory Structure
 
 ```
+├── launch/
+│   └── odom_system.launch.py      # Launches both nodes
 odom_computation/
 ├── odom_computation/
 │   ├── __init__.py
 │   ├── wheel_tick_pub_ros2.py     # Simulates encoder ticks
 │   └── odom_calc_node.py          # Converts ticks to Odometry
-├── launch/
-│   └── odom_system.launch.py      # Launches both nodes
-├── setup.py
+├── resource
+│   └── odom_computation
+├── test
+│   ├── test_copyright.py
+│   ├── test_flake8.py    
+│   └── test_pep257.py
+├── README.md
 ├── package.xml
-└── README.md
+├── setup.cfg
+├── setup.py
+
 ```
 
 ---
