@@ -121,8 +121,8 @@ Ideas to expand this package:
 
 ## 👨‍💻 Author
 
-**Vignesh**  
-ROS 2 Developer | Embedded Robotics Enthusiast  
+**Vignesh** 
+Embedded Robotics Enthusiast 
 [GitHub](https://github.com/vigneshnaidu03)
 
 ---
